@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    print("bo bo bo")
+    print("bo bo bo");
     return 0;
 }
 

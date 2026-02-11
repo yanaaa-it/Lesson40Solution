@@ -4,13 +4,15 @@
 #include <iostream>
 using namespace std;
 
+double sum(float n1, long long n2);
+
 int main()
 {
     cout << sum(3.5f, 10000000000LL);
     return 0;
 }
 
-long double sum(float n1,long long n2){
+ double sum(float n1,long long n2){
     return n1+n2;
 }
 

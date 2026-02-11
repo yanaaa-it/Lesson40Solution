@@ -5,14 +5,16 @@
 #include <string>
 using namespace std;
 
+long long factorial(int);
+
 int main() {
     cout << factorial(5);
     return 0;
 }
-string factorial(int) {
-    string msg;
-    for (int i = 1; i < 5; i++) {
-        msg += to_string(i) + " ";
+long long factorial(int n) {
+    int msg=1;
+    for (int i = 2; i < n; i++) {
+        msg *= i;
 }
     return msg;
 }

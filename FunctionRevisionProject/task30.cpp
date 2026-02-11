@@ -4,8 +4,10 @@
 #include <iostream>
 using namespace std;
 
+char is_vowel(char ch);
+
 int main() {
-    cout << is_vowel('a');
+    cout << is_vowel('a')?"yes":"no";
     return 0;
 }
 

@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
- bool check_positive(float num, bool strict)
+ bool check_positive(double num, bool strict)
 {
     return strict ? num > 0 : num >= 0;
 }

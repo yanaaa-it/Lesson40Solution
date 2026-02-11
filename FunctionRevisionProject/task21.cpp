@@ -3,6 +3,7 @@
 
 #include <iostream>
 using namespace std;
+string add_exclamation(string text);
 
 int main() {
     string text = "Hello";

@@ -4,12 +4,14 @@
 #include <iostream>
 using namespace std;
 
+float multiply(double num, double num2);
+
 int main()
 {
 	cout << multiply(5, 3.5f);
 	return 0;
 }
 
-double multiply(double num, double num2) {
+float multiply(double num, double num2) {
 	return num * num2;
 }

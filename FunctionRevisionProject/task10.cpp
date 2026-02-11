@@ -4,11 +4,13 @@
 #include <iostream>
 using namespace std;
 
+void print_message(string text);
+
 int main()
 {
     print_message("Hello, C++!");
     return 0;
 }
 void print_message(string text) {
-  
+    cout << text << endl;
 }

@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    fibonacci(12);
+    cout<<fibonacci(10);
     return 0;
 }
 

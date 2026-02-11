@@ -3,6 +3,8 @@
 #include <iostream>
 using namespace std;
 
+float average(float a, float b, float c);
+
 int main() {
     float a = 1.5f, b = 2.5f, c = 3.5f;
     cout << average(a, b, c);
