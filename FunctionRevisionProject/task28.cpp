@@ -4,7 +4,11 @@
 using namespace std;
 
 int main() {
-    ... a = 1.5f, b = 2.5f, c = 3.5f;
+    float a = 1.5f, b = 2.5f, c = 3.5f;
     cout << average(a, b, c);
     return 0;
+}
+
+float average(float a, float b, float c) {
+    return (a + b + c) / 3;
 }
