@@ -9,3 +9,6 @@ int main()
     print_message("Hello, C++!");
     return 0;
 }
+void print_message(string text) {
+  
+}

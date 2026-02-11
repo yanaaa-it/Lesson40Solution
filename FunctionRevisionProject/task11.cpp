@@ -11,7 +11,7 @@ int main()
     return 0;
 }
 
-... abs_value(... num, ... take_abs)
+int abs_value(double num, bool take_abs)
 {
     return take_abs ? (num < 0 ? -num : num) : num;
 }

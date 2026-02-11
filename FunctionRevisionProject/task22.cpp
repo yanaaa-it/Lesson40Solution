@@ -9,7 +9,7 @@ int main() {
     return 0;
 }
 
-... square(...) {
-    return ...;
+float square(float num) {
+    return num*num;
 }
 

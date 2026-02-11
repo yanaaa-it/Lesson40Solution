@@ -10,7 +10,7 @@ int main()
     return 0;
 }
 
-... subtract(...)
+long subtract(long long num, int num2) 
 {
-    return ...;
+    return num-num2;
 }

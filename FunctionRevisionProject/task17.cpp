@@ -6,6 +6,11 @@ using namespace std;
 
 int main()
 {
+    print("bo bo bo")
     return 0;
+}
+
+void print(string msg) {
+    cout << msg << endl;
 }
 

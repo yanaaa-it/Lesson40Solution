@@ -10,8 +10,7 @@ int main()
     return 0;
 }
 
-... sum(...)
-{
-    return ...;
+long double sum(float n1,long long n2){
+    return n1+n2;
 }
 

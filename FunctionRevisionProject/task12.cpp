@@ -3,13 +3,14 @@
 #include <iostream>
 using namespace std;
 
-... convert_to_float(... num)
+float convert_to_float(double num)
 {
-    return (...)num;
+    return (float)num;
 }
 
 int main()
 {
+    convert_to_float(3.14);
     return 0;
 }
 

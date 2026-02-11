@@ -9,3 +9,6 @@ int main()
     cout << is_digit('5', true);
     return 0;
 }
+bool is_digit(char ch, bool bo) {
+    return ch < '0' || ch>'0';
+}

@@ -7,10 +7,11 @@ using namespace std;
 
 int main()
 {
+    print_table(10, 10);
     return 0;
 }
 
-... print_table(...)
+string print_table(int n,int m)
 {
     string table = "";
     

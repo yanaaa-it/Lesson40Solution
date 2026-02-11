@@ -10,4 +10,7 @@ int main() {
     cout << text;
     return 0;
 }
+string add_exclamation( string text) {
+    return text + "!";
+}
 
