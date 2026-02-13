@@ -9,3 +9,18 @@
 // Пример, если пользователь ввёл 20, то программа должна выдать следующую 
 // последовательность чисел: 0, 1, 1, 2, 3, 5, 8, 13, а если ввёл 200, 
 // то программа должна выдать: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144 и т.д.
+#include"util.h"
+#include"logic.h"
+
+int main() {
+	int number;
+
+	cout << "input number?";
+	cin >> number;
+
+	string msg = get_fibo_number(number);
+
+	print(msg);
+
+	return 0;
+}
